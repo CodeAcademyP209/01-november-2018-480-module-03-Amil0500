@@ -1,0 +1,620 @@
+body {
+    line-height: 1;
+}
+
+section {
+    display: block;
+}
+
+
+div {
+    display: block;
+}
+
+.logo:hover {
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.logo img {
+    padding: 12px 0px 0px 75px;
+}
+
+#header {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 128, 0.8), rgba(0, 0, 128, 0.3)),
+        url(img/price-bg.jpg);
+    background-attachment: cover;
+}
+
+.class1 {
+    position: fixed;
+    height: 50px;
+    padding-top: 25px;
+    width: 87%;
+    z-index: 3;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+
+}
+
+.menunav li {
+    text-decoration: none;
+    float: left;
+    color: white;
+}
+
+.menunav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menunav li:first-child {
+    border: white 1px solid;
+}
+
+.menunav li {
+    margin-left: 10px;
+    margin-top: -7px;
+    float: left;
+    font-size: 13px;
+    padding: 8px 7px 8px 6px;
+    border: transparent 1px solid;
+    cursor: pointer;
+}
+
+.menunav li:hover {
+    border: white 1px solid;
+    transition: 0.8s;
+}
+
+ul,
+menu,
+dir {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.download {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 9px 40px 10px 40px;
+    margin-top: 7px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.download:hover {
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+
+.areacontent {
+    color: #fff;
+    padding: 242px 0px 170px;
+}
+
+.areacontent h1 {
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+.hand {
+    position: absolute;
+    bottom: 39px;
+    max-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hand img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.areacontent .class2-btn {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 15px 40px 10px 40px;
+    margin-right: 15px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    transition: 0.6s;
+    background-color: transparent;
+}
+
+.class2-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.area2 {
+    text-align: center;
+}
+
+.ptb90 {
+    padding: 90px 0;
+}
+
+.area2-container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.area2-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.row2-title {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto 40px;
+    box-sizing: border-box;
+}
+
+.row2-title h2 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -6px;
+    font-size: 35px;
+}
+
+.row2-title-border {
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #222;
+    right: 0;
+    height: 0;
+    margin: auto;
+}
+
+.row2-title,
+.areacontent p {
+    line-height: 1.4;
+}
+
+.area2-box {
+    padding: 25px;
+    transition: all 0.4s linear;
+}
+
+.area2-box:hover {
+    box-shadow: 0 0 8px 3px rgb(173, 167, 167);
+}
+
+.area2-box i {
+    font-size: 30px;
+    color: blue;
+    transition: all 0.4s;
+}
+
+.area2-box:hover i {
+    color: black;
+}
+
+.area2-box h4 {
+    margin: 25px 0 15px;
+    font-size: 18px;
+    color: #232323;
+}
+
+.area2-box p {
+    line-height: 1.4;
+}
+
+.medium-area2-box {
+    padding: 25px;
+    transition: all 0.4s;
+}
+
+.medium-area2-box i {
+    font-size: 35px;
+}
+
+.medium-area2-box.active,
+.medium-area2-box:hover {
+    box-shadow: 0 0 5px #ccc;
+}
+
+.medium-area2-box h4 {
+    margin: 25px 0 15px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #232323;
+}
+
+.medium-area2-box p {
+    line-height: 1.4;
+}
+
+.feature-area3 {
+    z-index: 1;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(0, 0, 128, 0.8), rgba(0, 0, 128, 0.3)), url(img/feature-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.conatiner-area3 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.area3-box {
+    display: flex;
+    box-pack: center;
+    justify-content: center;
+    box-align: center;
+    align-items: center;
+    color: white;
+}
+
+.area3-box h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.area3-row {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-area3-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.area3-box-text {
+    flex: 5;
+}
+
+.area3-box-icon {
+    flex: 1;
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+
+.area3-box li {
+    padding-right: 30px;
+    padding-bottom: 35px;
+    display: flex;
+}
+
+.area3-box-text h4,
+p {
+    line-height: 1.5;
+    padding-right: 25px;
+}
+
+.area3-box-icon span {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px dotted white;
+    border-radius: 50px;
+}
+
+.area3-box-icon span:hover {
+    transition: all 0.6s;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.text-area3-left {
+    text-align: left;
+}
+
+.area3-box ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.area4 {
+    padding-bottom: 50px;
+}
+
+.conatiner-area4 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.area4-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.area4-title {
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto 40px;
+
+}
+
+.area4-title h2 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -6px;
+    font-size: 30px;
+    color: black;
+    line-height: 1.4;
+}
+
+.area4-title p {
+    line-height: 1.5;
+    padding-right: 0px;
+}
+
+.area4-title h2 .area4-title-border {
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #222;
+    right: 0;
+    height: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.area4-row2 {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.area4-box {
+    display: flex;
+    box-pack: center;
+    justify-content: center;
+    box-align: center;
+    align-items: center;
+}
+
+.area4-inline-box {
+    padding: 40px 100px 40px;
+    box-sizing: border-box;
+}
+
+.area4-inline-box h4 {
+    font-size: 20px;
+    color: black;
+    line-height: 1.4;
+}
+
+.area4-inline-box p {
+    margin: 20px 0 25px;
+}
+
+.app-btn2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 128, 0.8), rgba(0, 0, 128, 0.3));
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.app-btn {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 15px 40px 10px 40px;
+    margin-right: 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.area4-inline-box a,
+.area4-inline-box:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+.app-btn2:hover {
+    color: black;
+    background-image: none;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.area4-inline-box a {
+    transition: all 0.6s;
+}
+
+.area4-inline-box img {
+    width: 98.5%;
+}
+
+.download-area,
+.download-area h1,
+.download-area h2,
+.download-area h3,
+.download-area h4,
+.download-area h5,
+.download-area h6,
+.download-area a {
+    color: white;
+}
+
+.download-area {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 128, 0.8), rgba(0, 0, 128, 0.3)),
+        url(img/download-bg.jpg);
+    background-attachment: cover;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.area5-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.area5-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.area5-title {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto 40px;
+}
+
+.area5-title h2 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -6px;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.area5-title h2 .area5-title-border {
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid white;
+    right: 0;
+    height: 0;
+    margin: auto;
+}
+
+.area5-title h2 .area5-title-border span {
+    width: 9px;
+    height: 9px;
+    position: relative;
+    display: inline-block;
+    margin: 0 1px;
+    bottom: 23.3px;
+}
+
+.download-area li {
+    display: inline-block;
+}
+
+.download-btn {
+    display: flex;
+    text-align: left;
+    margin: 0 25px;
+    padding: 3px 30px 5px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.area5-box {
+    align-items: center;
+    box-align: center;
+}
+
+.download-btn-icon {
+    flex: 1;
+    font-size: 22px;
+    margin-right: 15px;
+    line-height: 30px;
+}
+
+.download-btn-text {
+    flex: 20;
+}
+
+.download-btn-text h4 {
+    font-size: 18px;
+}
+
+.area5-box:hover {
+    transition: all 0.6s;
+    cursor: pointer;
+    background-color: rgb(72, 72, 233);
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 1px rgb(173, 167, 167);
+}
